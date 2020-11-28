@@ -1,0 +1,98 @@
+body {
+    background-image: url("pexels-aleksandar-pasaric-325185.jpg");
+}
+
+#container {
+    position: fixed;
+    width: 80%;
+    left: 50%;
+    height: 70vh;
+    transform: translateX(-50%);
+}
+
+#main {
+    background-color: cornflowerblue;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: calc(70vh - 20px);
+    width: calc(70% - 20px);
+    float: right;
+    padding: 10px;
+
+}
+
+#sidebar {
+    float: left;
+    width: 30%;
+    height: 100%;
+    background-color: rgba(0, 50, 200, 0.3);
+    padding-bottom: 25px;
+}
+
+#footer {
+    margin-top: 8px;
+    position: fixed;
+    background: blue;
+    top: 70vh;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#table td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#table tr:nth-child(even) {
+    background-color: #f2f2f2;
+    opacity: 70%;
+}
+
+#table tr:nth-child(odd) {
+    background-color: white;
+    opacity: 70%;
+}
+
+#table tr:hover {
+    background-color: #ddd;
+    opacity: 80%;
+}
+
+#table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: blue;
+    color: white;
+}
+
+#sidebar ul{
+    list-style-type: none;
+    overflow: hidden;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#sidebar li{
+    display: block;
+    background-color: blue;
+    padding: 10px 5px 5px 20px;
+    opacity: 40%;
+}
+
+.nested{
+    padding-left:  40px !important;
+    opacity: 70% !important;
+}
+#sidebar a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
