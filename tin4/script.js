@@ -59,7 +59,7 @@ function szesc(x) {
 }
 
 
-function siedem() {
+function siedem(figura) {
   switch (expression) {
     case 'Trojkat':
       trojkat(a, h);
@@ -117,4 +117,13 @@ function dziewiec(x) {
   return triangle;
 }
 
-console.log(dziewiec(7));
+class Auto {
+  constructor(rok, przebieg, cena_wyjsciowa, cena_koncowa) {
+    this.rok = rok;
+    this.przebieg = przebieg;
+    this.cena_wyjsciowa = cena_wyjsciowa;
+    this.cena_koncowa = cena_koncowa;
+  }
+};
+
+let auto = new Auto(2010, 180000, 100000, 50000);
